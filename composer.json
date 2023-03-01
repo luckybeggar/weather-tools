@@ -1,0 +1,33 @@
+{
+  "name": "weather-tools",
+  "homepage": "https://github.com/luckybeggar/weather-tools",
+  "description": "Weather Tools",
+  "keywords": [
+    "weather",
+    "heatIndex",
+    "windChill",
+    "apparentTemperature"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Alexey Tsimbalov",
+      "email": "a.tsimbalov@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "WeaterTools\\": "src/WeaterTools"
+    }
+  }
+}
